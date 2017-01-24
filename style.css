@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-size: 20px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 500;
   font-family: "PT Sans", "Arial", sans-serif;
 }
 
@@ -13,10 +13,21 @@ body {
   margin-top: 100px;
 }
 
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 15px;
+  min-width: 20%;
+}
+
 .menu a {
     text-decoration: none;
     color: bisque;
-    padding: 15px 30px;
+    padding: 15px 50px;
     background-color: crimson;
     border-radius: 5%;
- }
+    white-space: nowrap;
+    font-weight: 600;
+}
+
